@@ -30,21 +30,13 @@ func GenerateReport() (string, error) {
             `
 	a := 0
 	b := 0
+	// Call get open and close vulnerabilities
 
 	s := fmt.Sprintf("<tr><td>%d</td><td>%d</td></tr>", a, b)
 	return fmt.Sprintf(html, s), nil
 }
 
-// GetVuln gets the open and closed vulnerabilities
-func GetVuln() {
-
-}
-
 // Count counts the number of vulnerabilities per Year
 func Count() {
-
-}
-
-func main() {
 
 }

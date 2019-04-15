@@ -24,7 +24,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	vulns, err := varsapi.GetVulnerabilities()
+	vulns, err := varsapi.GetClosedVulnerabilities()
 	if !varsapi.IsNilErr(err) {
 		fmt.Print(err)
 	}
